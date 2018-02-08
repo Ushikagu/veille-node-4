@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Veille technologique</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+
+    <script src="/js/script.js" charset="utf-8"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head>
+  <body class="pageFormulaire">
+    <%- include('components/header') %>
+    <main>
+      <section>
+        <div class="wrapper">
+          <h1>Membres magiques</h1>
+          <div class="content">
+            <form action="/formulaire" method="post">
+              <div class="field">
+                <label for="prenom">Prénom</label>
+                <input type="text" name="prenom" value="">
+              </div>
+              <div class="field">
+                <label for="nom">Nom de famille</label>
+                <input type="text" name="nom" value="">
+              </div>
+              <div class="field">
+                <label for="tel">Téléphone</label>
+                <input type="text" name="tel" value="">
+              </div>
+              <div class="field">
+                <label for="email">Courriel</label>
+                <input type="email" name="email" value="">
+              </div>
+              <div class="actions">
+                <button type="submit">Soumettre</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <%- include('components/footer') %>
+  </body>
+</html>

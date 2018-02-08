@@ -1,0 +1,25 @@
+{
+  "name": "exercice",
+  "version": "1.0.0",
+  "description": "Projet de test git et node.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loteoo/veille-node-2.git"
+  },
+  "author": "Alexandre Lotte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loteoo/veille-node-2/issues"
+  },
+  "homepage": "https://github.com/loteoo/veille-node-2#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2"
+  }
+}
